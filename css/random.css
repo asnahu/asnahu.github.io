@@ -301,9 +301,9 @@ ul.category-list li a:hover {
   text-decoration: none;
 }
 #btn-view {
-  color: #c8f7c5;
+  color: #999;
   text-align: center;
-  background-color: #1e824c;
+  background-color: #8b1209;
   font-size: 70%;
   border-radius: 50%;
   line-height: 40px;
@@ -314,11 +314,14 @@ ul.category-list li a:hover {
   height: 40px;
   width: 40px;
   cursor: pointer;
-  opacity: 0.25;
+  opacity: 0.5;
 }
 #btn-view:hover {
   opacity: 0.75;
-  box-shadow: 0 0px 10px 5px rgba(46,204,113,0.9);
+/*box-shadow: 0 0px 10px 5px rgba(46, 204, 113, 0.9);*/
+  box-shadow: 0 0px 6px 4px rgba(184,120,114,0.9);
+  background-color: #570b04;
+  color: #999;
 }
 .page-title-sub {
   color: #888;
